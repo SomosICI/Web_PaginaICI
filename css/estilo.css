@@ -1,0 +1,104 @@
+body{
+     font-family: "Century Gothic",Arial,sans-serif;
+}
+.menu{
+    display: inline-block;
+    width: 100%;
+    background: #fdcb2c;
+    list-style: none;
+    padding: 0;
+    box-shadow: 0px -3px #e13b3a;
+}
+
+.menu li{
+    display: inline-block;
+    
+}
+
+.menu li a{
+    
+    padding:10px 20px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    background: #39ed04;
+    
+}
+
+.tabla{
+    margin-left: 5px;
+    display: inline-block;
+    width: 40%;
+    
+}
+
+.espacio{
+    display: inline;
+    width: 10%;
+    border: 2.5px solid #84af74;
+    border-radius: 10px;
+}
+
+img{
+    width:100%;
+}
+
+header
+{
+    width: 100%;
+    float: left;
+    background: #fff;
+}
+
+#subheader{
+    display: block;
+    width: 100%;
+    margin: auto;
+    
+}
+
+#logo{
+    width: 10%;
+    float: left;
+    background: 
+    padding: 10px 0px;
+}
+
+header #subheader nav{
+    float: left;
+    width: 87%;
+    padding: 30px 0px;
+    text-align: right;
+    background: #fff;
+}
+
+header #subheader nav a{
+    color: #fdcb2c;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding:10px;
+}
+
+header #subheader nav a:hover{
+    color:#e13b3a;
+}
+
+table
+{
+    width: 35%;
+    border: 2.5px solid #69a9c9;
+    border-radius: 10px;
+}
+table td{
+    padding: 5px;
+}
+
+.azul
+{
+    background:#69a9c9;
+}
