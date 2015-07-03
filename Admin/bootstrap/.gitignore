@@ -37,9 +37,9 @@ Thumbs.db
 bower_components
 node_modules
 docs
-/grunt
-/less
-/test-infra
+grunt
+less
+test-infra
 *.yml
 *.json
 *.md
