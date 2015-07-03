@@ -37,10 +37,10 @@ Thumbs.db
 bower_components
 node_modules
 docs
-grunt/
-js/
-less/
-test-infra/
+/grunt
+/js
+/less
+/test-infra
 *.yml
 *.json
 *.md
