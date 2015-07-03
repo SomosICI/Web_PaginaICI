@@ -32,7 +32,9 @@ header {
 	box-shadow: 0px 3px 5px #000;
 		-moz-box-shadow: 0px 3px 5px #000;
 		-webkit-box-shadow: 0px 3px 5px #000;
+	margin-bottom: 20px;
 }
+
 
 #subheader {
 	width: 960px;
@@ -91,43 +93,65 @@ header #subheader nav ul li a:hover {
 }
 
 /*---Slideshow---*/
-#slideshow {
-	width: 920px;
-	height: 260px;
-	float: left;
-	background: #000;
-	border: solid 20px #fff;
+
+.slides {
+    width: 100%;
 	margin-bottom: 10px;
+	margin-top: 20px;
 }
 
-#slideshow .pagination {
-	margin: 26px 0px;
-	width: 100px;
+.slides img {
+    width: 100%;
+    height: inherit;
 }
 
-#slideshow .pagination li {
-	float: left;
-	margin: 0px 5px;
-	list-style: none;
+.slidesjs-pagination {
+    
+    list-style: none;
+    overflow: hidden;
 }
 
-#slideshow img {
-	width: 920px;
-	height: 260px;
+.slidesjs-pagination li {
+    float: left;
 }
 
-#slideshow .paginaion li a {
-	display: block;
-	width: 12px;
-	height: 0px;
-	padding-top: 12px;
-	background: #fff;
-	float: left;
-	overflow: hidden;
-	border-radius: 10px;
-		-moz-border-radius: 10px;
-		-webkit-border-radius: 10px;
+.slidesjs-pagination li a {
+    display: block;
+    padding: 1px 6px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background: #fff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
 }
+
+.slidesjs-pagination li a:hover {
+    background: #1798af;
+    color: #1798af;
+}
+
+.slides .active {
+    background: #1798af;
+    color: #1798af;
+}
+
+.slidesjs-navigation {
+    color: #fff;
+    display: inline-block;
+    padding: 1px 6px;
+    margin-top: 5px;
+    margin-right: 3px;
+    float:right;
+    text-decoration: none;
+} 
+
+.slidesjs-navigation:hover {
+	color: #1798af;
+    text-decoration: none; 
+}
+
+
 
 /*---Bienvenidos---*/
 #bienvenidos {
